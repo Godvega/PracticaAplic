@@ -1,0 +1,79 @@
+.Cabecera-logo{
+    padding-left: 08px;
+    padding-top: 08px;
+    width: 120px;
+    height: 111px;
+}
+
+.logImg{
+    width: 130px;
+    height: 130px;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+
+.barra-nav{
+    background-color: skyblue;
+}
+.barra-nav_lista{
+    padding-left: 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    margin: 10px;
+
+}
+.barra-nav_lista li a{
+    text-decoration: none ;
+    font-weight: 700;
+    color: white;
+    transition: .1s;
+ 
+}
+.barra-nav_lista li a:hover{
+    color: #333;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contenedor-articulos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor-articulos article{
+    height: 50% ;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.contenedor-asides{
+    width: 35%;
+    background-color: rgb(233, 128, 59);
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+
+.pie-pagina{
+    background-color: black;
+    color: #fff;
+    clear: both;
+    text-align: center;
+}
